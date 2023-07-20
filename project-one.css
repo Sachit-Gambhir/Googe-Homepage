@@ -1,0 +1,257 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ ul {
+     list-style-type: none;
+     /*get rid of dots*/
+ }
+ 
+ li {
+     display: inline-block;
+     cursor: pointer;
+     line-height: 14px;
+ }
+ 
+ li:hover {
+     border-bottom: 1px solid rgb(105, 105, 105);
+ }
+ 
+ #nav {
+     margin-top: 15px;
+     margin-left: 24px;
+     font-family: Arial, sans-serif;
+     font-size: 13px;
+     letter-spacing: 0.75px;
+ }
+ 
+ #nav-right-side {
+     display: inline-block;
+     position: fixed;
+     right: 40px;
+     letter-spacing: 0.75px;
+ }
+ 
+ #blue-s {
+     height: 22px;
+     width: 65px;
+     background-color: rgb(85, 158, 253);
+     color: white;
+     margin-top: -4px;
+     padding-left: 14px;
+     padding-top: 5px;
+     padding-bottom: 4px;
+     font-size: 15px;
+     font-family: Arial, sans-serif;
+     border-radius: 3px;
+     letter-spacing: 0.75px;
+     line-height: 20px;
+     border: none;
+ }
+ 
+ #google-h1 {
+     font-size: 80px;
+     margin-right: 5px;
+     padding-right: 30px;
+ }
+ 
+ #main-google {
+     text-align: center;
+     position: relative;
+     top: 140px;
+ }
+ 
+ .seperate-nav-items {
+     margin-left: 16px;
+ }
+ 
+ #e1 {
+     font-family: 'Comic Neue', cursive;
+ }
+ 
+ .google-letters {
+     /*font-family: 'Quicksand', sans-serif;*/
+     font-family: 'Spartan', sans-serif;
+     margin-left: -26px;
+ }
+ 
+ #g1 {
+     /*font-family: 'Quicksand', sans-serif;*/
+     font-family: 'Spartan', sans-serif;
+ }
+ 
+ #google-input {
+     height: 40px;
+     width: 565px;
+     border-radius: 20px;
+     margin-left: -8px;
+     margin-right: 10px;
+     position: relative;
+     top: 25px;
+     border: 1px solid lightgray;
+     padding-left: 18px;
+     font-size: 15px;
+     outline: none;
+ }
+ 
+ #google-input:hover {
+     /*
+box shadow: right bottom blur(px all three) color
+    */
+     box-shadow: 0px 2px 6px rgb(145, 145, 145);
+ }
+ 
+ #google-input:focus {
+     box-shadow: 0px 2px 6px rgb(145, 145, 145);
+ }
+ 
+ #button-container {
+     position: relative;
+     top: 60px;
+ }
+ 
+ button {
+     height: 38px;
+     width: 130px;
+     border: none;
+     background-color: rgb(238, 238, 238);
+     margin-top: 0;
+     margin-bottom: 0;
+     margin-right: 6px;
+     font-size: 14px;
+     font-family: Arial, sans-serif;
+     letter-spacing: 0.3px;
+     color: rgb(100, 100, 100);
+     border-radius: 4px;
+     cursor: pointer;
+     outline: none;
+ }
+ 
+ #b1 {
+     margin-left: -15px;
+ }
+ 
+ button:hover {
+     /*color: black;
+     border: 1px solid rgb(173, 173, 173);*/
+     box-shadow: 1px 2px 5px rgb(87, 87, 87);
+     position: relative;
+     top: -3.5px;
+ }
+ 
+ button:active {
+     box-shadow: 0px 2px 3px rgb(49, 49, 49);
+     top: 0px;
+ }
+ /*button:focus {
+     border: 2px solid black;
+     /* outline is not used bcoz 
+        we can't give border radius as
+        it won't work
+    }
+     */
+ /*
+ Google Mic
+ <span id="mic"> <img src="mic.png">  </span>
+ 
+ #mic {
+     background-image: url(//www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) 0 0 no-repeat;
+     background-size: 24px;
+     background-position: right;
+     height: 24px;
+     width: 24px;
+     vertical-align: middle
+ }   
+
+    search 
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+ */
+ 
+ #footer {
+     position: fixed;
+     bottom: 0px;
+     background-color: rgb(238, 238, 238);
+     width: 100%;
+     border: 0.75px outset lightgray;
+ }
+ 
+ #footer-right-side {
+     position: fixed;
+     right: 26px;
+     display: inline-block;
+ }
+ 
+ .seperate-footer-items {
+     margin-left: 22px;
+     font-family: Arial, sans-serif;
+     font-size: 15px;
+     letter-spacing: 0.20px;
+ }
+ 
+ #google-langs {
+     margin-top: 100px;
+     font-size: 13px;
+     font-family: Arial, sans-serif;
+     display: inline-block;
+ }
+ 
+ .google-langs-list {
+     margin-left: 10px;
+     color: blue;
+     cursor: pointer;
+     line-height: 14px;
+ }
+ 
+ .google-langs-list:hover {
+     border-bottom: 1px solid blue;
+ }
+ 
+ #ul-footer {
+     margin-left: 24px;
+     margin-bottom: 14px;
+     padding-top: 15px;
+     font-family: Arial, sans-serif;
+     font-size: 15px;
+     letter-spacing: 0.20px;
+     color: rgb(87, 87, 87)
+ }
+ 
+ #footer-loc {
+     position: fixed;
+     bottom: 45px;
+     background-color: rgb(238, 238, 238);
+     width: 100%;
+     height: 20px;
+     padding-top: 16px;
+     padding-bottom: 12px;
+ }
+ 
+ #footer-loc-up {
+     margin-left: 24px;
+     margin-bottom: 24px;
+     color: rgb(105, 105, 105);
+     font-family: Arial, sans-serif;
+     font-size: 15px;
+     letter-spacing: 0.20px;
+ }
+ /* search text hovering over input box
+ .tooltip.tooltip-text {
+     visibility: hidden;
+     width: 120px;
+     background-color: lightgray;
+     color: #fff;
+     text-align: pointer;
+     padding: 5px 0;
+     /* Position the tooltip */
+ /* position: absolute;
+     top: -5px;
+     left: 105%;
+ }
+ 
+ .tooltip:hover .tooltip-text {
+     visibility: visible;
+ }*/
